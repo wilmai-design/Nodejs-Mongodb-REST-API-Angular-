@@ -1,0 +1,10 @@
+<ul>
+  <li *ngFor=" let item of tareas">
+      <!-- {{ item.description }}
+      {{ item.title }}
+      {{ item.updatedAt }}
+      {{ item._id }} -->
+
+      <app-tarea-individual [tareaInfo]="item"></app-tarea-individual>
+  </li>
+</ul>

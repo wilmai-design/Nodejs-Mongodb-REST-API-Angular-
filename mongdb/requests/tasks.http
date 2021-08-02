@@ -1,0 +1,33 @@
+GET http://localhost:3000/api/tasks
+
+###
+
+POST http://localhost:3000/api/tasks
+Content-Type: application/json
+
+{
+    "title": "HAcer un sitio web en cacume",
+    "description": "trabajo freelance",
+    "done": true
+}
+
+###
+GET http://localhost:3000/api/tasks/61081d150c81e46638088b99
+
+###
+DELETE http://localhost:3000/api/tasks/610743b15772be063ce33730
+
+###
+GET http://localhost:3000/api/tasks/done
+
+###
+PUT http://localhost:3000/api/tasks/61081d150c81e46638088b99
+Content-Type: application/json
+
+{
+    "title": "Crear app pe pe rap"
+}
+
+
+
+
