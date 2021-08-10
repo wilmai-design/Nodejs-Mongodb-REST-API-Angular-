@@ -1,0 +1,18 @@
+.editar {
+background-color: blue;
+color: #fff;
+cursor: pointer;
+}
+
+.borrar {
+  background-color: red;
+  color: #fff;
+  margin-left: 15px;
+  cursor: pointer;
+  transition: .5s;
+}
+
+.borrar:hover {
+  background-color: seashell;
+  color: #000;
+}
